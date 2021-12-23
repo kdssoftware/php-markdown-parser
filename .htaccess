@@ -1,0 +1,1 @@
+RewriteRule ^/(.*)$ localhost:3000/?p=$1 [R=301,NC,L]

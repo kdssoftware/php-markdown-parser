@@ -1,0 +1,104 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700";
+@import "https://cdn.jsdelivr.net/gh/asciidoctor/asciidoctor@2.0/data/stylesheets/asciidoctor-default.css";
+
+body {
+  left: 10%;
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+code.b {
+  display: block;
+}
+
+code,
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 2px 5px;
+  font-size: 90%;
+  color: #333;
+}
+
+br {
+  display: block;
+  height: 8px;
+  content: "";
+}
+
+li {
+  margin-top: 22px;
+}
+
+li.intial_margin {
+  margin-top: 0px;
+}
+
+b {
+  color: rgb(140 37 21);
+}
+
+footer {
+  display: block;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #ececec87;
+  padding: 9px;
+  text-align: center;
+  font-size: 14px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  text-rendering: optimizeLegibility;
+  font-family: "Open Sans", "DejaVu Sans", sans-serif;
+}
+a.headerlink img {
+  width: 16px;
+}
+a {
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+  text-rendering: optimizeLegibility;
+  font-family: "Open Sans", "DejaVu Sans", sans-serif;
+  background-image: linear-gradient(to bottom, transparent 65%, #fcf113 0);
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  transition: background-size 0.4s ease;
+  word-spacing: -0.05em;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(162 54 54);
+}
+
+a:hover {
+  background-size: 100% 100%;
+  cursor: pointer;
+  color: rgb(158 32 12);
+}
+h1:hover > a.headerlink,
+h2:hover > a.headerlink,
+h3:hover > a.headerlink,
+h4:hover > a.headerlink,
+h5:hover > a.headerlink,
+h6:hover > a.headerlink,
+dt:hover > a.headerlink,
+caption:hover > a.headerlink,
+p.caption:hover > a.headerlink,
+div.code-block-caption:hover > a.headerlink {
+  visibility: visible !important;
+}
+a.headerlink {
+  visibility: hidden;
+}
+li.index_list {
+  padding-bottom: 20px;
+}
+.index_list h3,
+.index_list h4,
+.index_list h5,
+.index_list h6 {
+  display: inline;
+}
