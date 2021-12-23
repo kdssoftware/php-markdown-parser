@@ -5,7 +5,7 @@ error_log("reading file " . $_REQUEST['p']);
 
 function readMD($file) {
     if($file=="ROOT"){
-        $file = "index.md";
+        $file = "/www/virtualhosts/ilt.kuleuven.be/html/php72/docs/index.md";
     }
     //reads only Markdown files
     if (substr($file, -3) != '.md') {
