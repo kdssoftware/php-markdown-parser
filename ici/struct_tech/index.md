@@ -1,3 +1,3 @@
 # Structuur en technieken
-[Home]() > [ici](../)
+[Home](/php72/docs/) > [ici](../) > structuur en technieken
 ***
