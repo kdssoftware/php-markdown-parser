@@ -2,8 +2,8 @@
 ***
 Lijst van projecten projecten:
 - ### [ici](ici) 
-auteur : Karel De Smet
+<em>Door Karel De Smet</em>
 - ### [docs](docs) 
-auteur : Karel De Smet
+<em>Door Karel De Smet</em>
 - ### [stan](stan) 
 auteur : Karel De Smet
