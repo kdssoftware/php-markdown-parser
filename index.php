@@ -7,7 +7,7 @@ function readMD($file) {
     //if the file has "ROOT" in it somewhere
     if(strpos($file, "ROOT") !== false) {
         error_log("found ROOT in file");
-        $file = "/www/virtualhosts/ilt.kuleuven.be/html/php72/docs/index.md";
+        $file = "index.md";
     }
     //reads only Markdown files
     if (substr($file, -3) != '.md') {
