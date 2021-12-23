@@ -1,3 +1,3 @@
 # Structuur en technieken
-[Home](/) > [ici](../)
+[Home]() > [ici](../)
 ***
