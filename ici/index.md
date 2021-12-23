@@ -1,4 +1,5 @@
 # Overview of ICI - documentation
+[Home](/)
 ***
 <em>Deze documentatie is uitsluitend in het Nederlands</em>
 
