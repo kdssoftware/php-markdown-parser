@@ -8,6 +8,7 @@ function readMD($file) {
     if (substr($file, -3) != '.md') {
         $file .= 'index.md';
     }
+    error_log($file);
     //get text from file
     $text = file_get_contents($file);
     //parse text
