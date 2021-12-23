@@ -19,8 +19,7 @@ function readMD($file) {
     $text = file_get_contents($file);
     //if not found return 404
     if ($text == false) {
-        header("HTTP/1.0 404 Not Found");
-        return "404 Not Found";
+        $text = file_get_contents('404.md');
     }
 
 
