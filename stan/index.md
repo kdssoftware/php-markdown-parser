@@ -1,3 +1,3 @@
 # Documentatie Stan
-[Home](index.md) > Stan
+[Home](/) > Stan
 ***
