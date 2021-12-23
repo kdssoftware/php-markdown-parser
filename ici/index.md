@@ -1,3 +1,6 @@
-## test ici  yes
+# overview of ICI - documentation
 
-[test](test.md)
+Deze documentatie is uitsluitend in het Nederlands
+
+- ### [Structuur en technieken](ici/struct_tech/)
+- ### [Classes](ici/classes/)
