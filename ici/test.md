@@ -1,10 +1,6 @@
-# Documentatie ICI 
+# overview of ICI - documentation
 
-- first
-- second
-  a bit down
+Deze documentatie is uitsluitend in het Nederlands
 
-```py
- def double (x):
-     return x+x
-```
+- ### [Structuur en technieken](ici/struct_tech/)
+- ### Classes [](ici/classes/)
