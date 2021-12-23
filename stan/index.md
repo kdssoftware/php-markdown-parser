@@ -1,3 +1,3 @@
 # Documentatie Stan
-[Home](ROOT) > Stan
+[Home](/php72/docs/) > stan
 ***
