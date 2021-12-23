@@ -6,7 +6,7 @@ error_log("reading file " . $_REQUEST['p']);
 function readMD($file) {
     //reads only Markdown files
     if (substr($file, -3) != '.md') {
-        return;
+        $file .= 'index.md';
     }
     //get text from file
     $text = file_get_contents($file);
