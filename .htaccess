@@ -1,1 +1,2 @@
-RewriteRule ^https://ilt.kuleuven.be/php72/docs/(.*)$ https://ilt.kuleuven.be/php72/docs/?p=$1 [R=301,NC,L]
+RewriteEngine on
+RewriteRule ^https:\/\/ilt\.kuleuven\.be\/php72\/docs\/(.*)$ https://ilt.kuleuven.be/php72/docs/?p=$1 [R=301,NC,L]
