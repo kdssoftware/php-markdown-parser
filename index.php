@@ -4,11 +4,6 @@ require 'vendor/autoload.php';
 error_log("reading file " . $_REQUEST['p']);
 
 function readMD($file) {
-    //if the file has "ROOT" in it somewhere
-    if(strpos($file, "ROOT") !== false) {
-        error_log("found ROOT in file");
-        $file = "index.md";
-    }
     //reads only Markdown files
     if (substr($file, -3) != '.md') {
         //no md file 
