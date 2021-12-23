@@ -1,5 +1,5 @@
 # Overview of ICI - documentation
-[Home](/)
+[Home](ROOT) > ici
 ***
 <em>Deze documentatie is uitsluitend in het Nederlands</em>
 
