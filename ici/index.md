@@ -1,4 +1,4 @@
-# overview of ICI - documentation
+# Overview of ICI - documentation
 
 Deze documentatie is uitsluitend in het Nederlands
 
