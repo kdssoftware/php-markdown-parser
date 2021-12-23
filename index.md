@@ -6,4 +6,4 @@ Lijst van projecten projecten:
 - ### [docs](docs) 
 <em>Door Karel De Smet</em>
 - ### [stan](stan) 
-auteur : Karel De Smet
+<em>Door Karel De Smet<em>
