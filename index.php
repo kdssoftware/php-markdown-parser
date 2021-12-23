@@ -4,7 +4,8 @@ require 'vendor/autoload.php';
 error_log("reading file " . $_REQUEST['p']);
 
 function readMD($file) {
-    if($file=="ROOT"){
+    //if the file has "ROOT" in it somewhere
+    if(strpos($file, "ROOT") !== false) {
         $file = "/www/virtualhosts/ilt.kuleuven.be/html/php72/docs/index.md";
     }
     //reads only Markdown files
