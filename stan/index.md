@@ -1,3 +1,2 @@
-## hier komt de documentatie van stan
-
-hierzo..
+# Documentatie Stan
+***
