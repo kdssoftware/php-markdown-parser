@@ -1,3 +1,3 @@
 # Documentatie Stan
-[Home](home) > Stan
+[Home](ROOT) > Stan
 ***
