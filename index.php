@@ -14,6 +14,7 @@ function readMD($file) {
             $file .= '/index.md';
         }
     }
+    $file = "/www/virtualhosts/ilt.kuleuven.be/html/php72/docs/".$file;
     error_log($file);
     //get text from file
     $text = file_get_contents($file);
