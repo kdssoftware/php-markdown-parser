@@ -6,7 +6,13 @@ error_log("reading file " . $_REQUEST['p']);
 function readMD($file) {
     //reads only Markdown files
     if (substr($file, -3) != '.md') {
-        $file .= 'index.md';
+        //no md file 
+        //check if last character is a /
+        if (substr($file, -1) == '/') {
+            $file .= 'index.md';
+        }else{
+            $file .= '/index.md';
+        }
     }
     error_log($file);
     //get text from file
