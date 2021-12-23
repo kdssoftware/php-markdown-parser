@@ -20,6 +20,7 @@ function readMD($file) {
     $text = file_get_contents($file);
     //if not found return 404
     if ($text == false) {
+        error_log("file not found");
         $text = file_get_contents('404.md');
     }
 
