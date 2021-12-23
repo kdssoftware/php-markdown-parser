@@ -1,6 +1,6 @@
 <?php
 require 'vendor/autoload.php';
-use ParsedownExtra;
+// use ParsedownExtra;
 error_log("reading file " . $_REQUEST['p']);
 
 function readMD($file) {
