@@ -1,9 +1,7 @@
-# ILT documentatie
+# 2 examples
 ***
-Lijst van projecten projecten:
-- ### [ici](ici) 
-(<em>Door Karel De Smet</em>)
-- ### [docs](docs) 
-(<em>Door Karel De Smet</em>)
-- ### [stan](stan) 
-(<em>Door Karel De Smet<em>)
+list 
+- ### [example 1](/example1) 
+(<em>plain markdown </em>)
+- ### [example 2](/example2) 
+(<em>second example with subdirs</em>)

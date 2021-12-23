@@ -1,4 +1,8 @@
 <?php
+/**
+ * This in the markdown generator. 
+ * Together with the .htaccess file, it will render markdown files to html. including the subdirs 
+ */
 require 'vendor/autoload.php';
 // use ParsedownExtra;
 error_log("reading file " . $_REQUEST['p']);
@@ -14,7 +18,7 @@ function readMD($file) {
             $file .= '/index.md';
         }
     }
-    $file = "/www/virtualhosts/ilt.kuleuven.be/html/php72/docs/".$file;
+    $file = "/www/".$file; // <- full path to file
     error_log($file);
     //get text from file
     $text = file_get_contents($file);
@@ -65,6 +69,6 @@ function HEAD($title){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>'.$title.'</title>
-    <link rel="stylesheet" href="https://ilt.kuleuven.be/php72/ici/docs/stylesheet.css">
+    <link rel="stylesheet" href="/stylesheet.css">
 </head>';
 }
