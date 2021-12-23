@@ -16,7 +16,7 @@ function readMD($file) {
     }
     error_log($file);
     //get text from file
-    $text = file_get_contents("/www/virtualhosts/ilt.kuleuven.be/html/php72/docs/".$file);
+    $text = file_get_contents($file);
     //if not found return 404
     if ($text == false) {
         $text = file_get_contents('404.md');
