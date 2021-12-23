@@ -1,2 +1,3 @@
 # Documentatie Stan
+[Home](/)
 ***
