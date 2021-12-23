@@ -17,6 +17,13 @@ function readMD($file) {
     error_log($file);
     //get text from file
     $text = file_get_contents($file);
+    //if not found return 404
+    if ($text == false) {
+        header("HTTP/1.0 404 Not Found");
+        return "404 Not Found";
+    }
+
+
     //parse text
     $Extra = new ParsedownExtra();
     $html = $Extra->text($text);
