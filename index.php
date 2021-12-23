@@ -4,6 +4,9 @@ require 'vendor/autoload.php';
 error_log("reading file " . $_REQUEST['p']);
 
 function readMD($file) {
+    if($file=="ROOT"){
+        $file = "index.md";
+    }
     //reads only Markdown files
     if (substr($file, -3) != '.md') {
         //no md file 
